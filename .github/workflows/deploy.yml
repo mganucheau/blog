@@ -103,3 +103,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+env:
+  JEKYLL_ENV: production
+  url: https://mganucheau.github.io
+  baseurl: /blog
